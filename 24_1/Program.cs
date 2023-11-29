@@ -12,7 +12,7 @@ namespace _24_1
         {
             Quadrato q = new Quadrato();
             q.Lato = float.Parse(Console.ReadLine());
-            Console.WriteLine(q.Lato*q.Lato);
+            Console.WriteLine(q.CalcoloSuperficie());
             Console.ReadLine();
         }
     }

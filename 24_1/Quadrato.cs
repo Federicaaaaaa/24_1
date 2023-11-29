@@ -9,5 +9,10 @@ namespace _24_1
     internal class Quadrato
     {
         public float Lato { get; set; }
+
+        public float CalcoloSuperficie()
+        {
+            return Lato * Lato;
+        }
     }
 }
